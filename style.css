@@ -10,7 +10,7 @@
 
 html,body {
     height: 100vh;
-    background-image: url(imagem\ de\ fundo.jpg);
+    background-image: url(assets/imagem\ de\ fundo.jpg);
     background-repeat: no-repeat;
     background-position: 10%;
     background-size: cover;
@@ -131,7 +131,7 @@ main .close-form {
     position: absolute;
     height: 30px;
     width: 30px;
-    background-image: url(close.svg);
+    background-image: url(assets/close.svg);
     background-repeat: no-repeat;
     background-size: cover;
     right: 20px;
