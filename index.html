@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p>LOGO FICTICIA</p>
+        <div class="services">
+
+            <a href="#">Home</a>
+            <a href="#">Serviços</a>
+            <a href="#">Produtos</a>
+            
+        </div>
+        <button class="btn-login" id="form-open">Login</button>
+
+    </header>
+
+    
+    <main>
+        <!-- Texto digitado sozinho -->
+
+        <div class="hide show" id="auto-text">
+             <p><span></span></p> 
+            <p class="paragrafo"></p> 
+        </div>
+
+        <!-- Fundo preto ao abrir o modal de login  -->
+        <div id="fade" class="hide"></div>
+
+        <!-- Modal de Login -->
+        <div id="content-login" class="hide">
+           
+            <button id="close-form-login" class="close-form"></button><p id="p-title">Login</p> 
+
+            <form action="#" class="form-container">
+    
+                <div class="box-input">
+                    <img src="login.svg" alt="" class="img-email">
+                    <input type="text" name="img-email" id="" placeholder=" Digite o e-mail " class="input-text" required>
+                </div>
+
+                <div class="box-input">
+                    <img src="lock.svg" alt="" class="img-locked">
+                    <input type="password"  placeholder="Digite a senha" class="input-text" required>
+                    <img src="eye-off.svg" alt="" class="eye-hide">
+                </div>
+
+                <div class="remember-me">
+
+                    <div class="checkbox">
+                        <input type="checkbox" name="" id="check">
+                        <label for="check">Lembre de mim</label>
+                    </div>
+
+                    <a class="aa" href="#">Esqueceu a senha?</a>
+                </div>
+
+                <button class="btn-submit">Logue Agora</button>
+                
+                <div class="create-account">
+                    <p>Você não tem uma conta? <a class="aa" href="#" id="singup">Registre-se</a></p>
+                </div>
+                
+                
+            </form>
+        </div>
+
+        <!-- Modal de registro  -->
+
+        <div id="content-singup" class="hide">
+            <button id="close-form-singup" class="close-form"></button>
+            <p id="p-title">Registro</p> 
+
+            <form action="#" class="form-container">
+    
+                <div class="box-input">
+                    <img src="login.svg" alt="" class="img-email">
+                    <input type="text" name="img-email" id="" placeholder=" Digite o e-mail " class="input-text" required>
+                </div>
+                <div class="box-input">
+                    <img src="lock.svg" alt="" class="img-locked">
+                    <input type="password"  placeholder="Crie sua senha" class="input-text" required>
+                    <img src="eye-off.svg" alt="" class="eye-hide">
+                </div>
+                <div class="box-input">
+                    <img src="lock.svg" alt="" class="img-locked">
+                    <input type="password"  placeholder="Confirme sua senha" class="input-text" required>
+                    <img src="eye-off.svg" alt="" class="eye-hide">
+                </div>
+                
+                <button class="btn-submit">Registre-se Agora</button>
+                
+                <div class="create-account">
+                    <p>Você já tem uma conta? <a class="aa" href="#" id="login">Logue-se</a></p>
+                </div>
+                
+                
+            </form>
+        </div>
+    </div>
+    </main>
+
+    <script src="main.js"></script>
+    <script src="effect.js"></script>
+</body>
+</html>
